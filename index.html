@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon">
+    <title>PRODUCT</title>
+    <!-- ==========STYLES========== -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="./images/logo.png" alt="">
+        <input type="search" name="" id="" class="search" placeholder="search..." >
+        <div class="mode">
+            <img src="./images/moon.png" alt="" class="active_mode">
+            <img src="./images/sun.png" alt="">
+        </div>
+    </div>
+    <div class="container flex_column">
+        <div class="cont grid">
+            <input type="text" name="" id="" placeholder="Product name">
+            <select name="" id="">
+                <option value="drinks">Drinks</option>
+                <option value="banana">Banana</option>
+                <option value="prarat">Prarat</option>
+                <option value="foods">Foods</option>
+                <option value="diapers">Diapers</option>
+                <option value="other">Other..</option>
+            </select>
+            <input type="number" name="" id="" placeholder="Product count" min="0">
+            <input type="number" name="" id="" placeholder="Price of one" min="0">
+            <input type="text" name="" id="" placeholder="Total price" readonly min="0">
+            <input type="date" name="" id="" placeholder="">
+            <button>+</button>
+        </div>
+        <div class="tb_parent">
+            <table>
+                <thead>
+                    <tr>
+                        <td>#</td>
+                        <td>Product name</td>
+                        <td>Prodcut type</td>
+                        <td>Product count</td>
+                        <td>Product Price</td>
+                        <td>Product total Price</td>
+                        <td>Product date</td>
+                        <td>Edit</td>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <form action="#">
+        <span class="close">X</span>
+        <h1>Edit</h1>
+        <input type="text" name="" id="" placeholder="Product name">
+        <select name="" id="">
+            <option value="drinks">Drinks</option>
+            <option value="banana">Banana</option>
+            <option value="prarat">Prarat</option>
+            <option value="foods">Foods</option>
+            <option value="diapers">Diapers</option>
+            <option value="other">Other..</option>
+        </select>
+        <input type="number" name="" id="" placeholder="Product count" min="0">
+        <input type="number" name="" id="" placeholder="Price of one" min="0">
+        <input type="text" name="" id="" placeholder="Total price" readonly min="0">
+        <input type="date" name="" id="" placeholder="">
+        <button>Save</button>
+    </form>
+    <footer>
+        <div class="logo">
+            <h5>Abdalrhman</h5>
+        </div>
+    </footer>
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>
